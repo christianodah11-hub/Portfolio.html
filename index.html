@@ -3,7 +3,8 @@
     <title></title>
     <style type="text/css">
       body {
-        
+        background-color:rgb(50,200,100);
+        overflow: scroll;
       }
       h1 {
         font-family: Courier New;
@@ -11,13 +12,15 @@
         text-decoration:underline;
         border:1px solid black;
         border-radius: 3px 3rem;
-        background-color: black;
         color: rgb(50,50,225);
+        background-color:rgb(220,150,0);
+        
         
       }
       h3 {
           font-size:7px;
           font-family:Times;
+          
       }
       
      p {
@@ -26,9 +29,14 @@
         font-family: Monospace;
         font-weight: bold;
       }
+      p.copy{
+          text-align:center;
+          margin:none;
+      }
       img.logo {
            border-radius:5rem;
            width:200px;
+           border:6px groove black;
            display:block;
            margin:auto;
            
@@ -40,12 +48,16 @@
           border-top:3px groove black;
       }
       #contact {
-          border:1px solid black;
-          border-radius:3px;
+          margin:auto;
+          background-color:rgb(220,150,0);
       }
-      .works {
-          border-radius:200px;
-          width:2px;
+      #about {
+          margin:auto;
+          background-color:rgb(220,150,0)
+      }
+      img {
+          width:200px;
+          border:6px dashed rgb(220,150,0);
       }
     
     </style>
@@ -56,10 +68,10 @@
     
     <h3>Welcome to my Portfolio</h3>
     
-    <img src="images/IMG_0157106025.png" class="logo">
+    <img src="images/Myself.png" class="logo" loading="lazy">
     
     <p>
-      My name is Odah Christian, the CEO of the Global-TECH Industry.
+      My name is Odah Christian, the CEO of the Global-TECH Industries.
     </p>
     <ul id="pros">
       <p>Services i render :</p>
@@ -68,7 +80,7 @@
           <li>Web design</li>
       <li>Web app Dev</li>
       <li>Front end Dev</li>
-      
+      <li>Game DeVop</li>
       
       
     </ul>
@@ -86,17 +98,17 @@
     
     <p>My  Works :</p>
     
-    <div class="works">
+    <main class="works">
        <figure>
-   <a href="My taco shop.html"><img src="images/images (8).jpeg"></a> <figcaption>My Taco Website</figcaption>
+   <a href="taco website.html"><img src="images/images (8).jpeg"></a> <figcaption>A Taco Website..</figcaption>
         </figure>
         
         <figure>
-            <a href="my_table.html"><img src="images/Screenshot_20251224-140936.png" width="500rem"></a>
-            <figcaption>My table</figcaption>
+            <a href="my_table.html"><img src="images/Table.png" width="500rem"></a>
+            <figcaption>Table Representation...</figcaption>
   
-    </figure>    
-        </div>
+    </figure>            
+        </main>
     
     
     
@@ -107,7 +119,22 @@
     
     </div>
     
+        <fieldset>
+        <legend><b>About Us :</b></legend>
+   <p id="about">
+       My Name is Odah Christian Ifeanyi
     
+    am a passionate programmer with a target to achieve..<br />
+    
+    I'm a native of Ebonyi state , currently residing in Nigeria, Rivers state.<br />
+    
+    The motto(our drive) is CONSISTENCY beats SURPLURCITY..  
+   </p>
+    
+    
+    
+    </fieldset>
+    <hr />
     
     <div id="contact">
         <fieldset>
@@ -119,13 +146,13 @@
     </fieldset>
     </div>
     
-    <fieldset>
-        <legend><b>About Us :</b></legend>
-    </fieldset>
+
+    <h2></h2>
+    <h2></h2>
+    <h2></h2>
     
     
-    
-    
+   <p class="copy">&copy; Global Technologies - 2026</p> 
   </body>
   
 </html>
